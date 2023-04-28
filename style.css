@@ -3,5 +3,13 @@
 }
 
 .cat {
-    border: 1px slateblue dotted;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 10px;
+}
+
+div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
